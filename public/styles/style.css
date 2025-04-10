@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    flex: 1;
+}
+
+/* Navbar */
+.navbar-brand i {
+    color: #FE5B5F;
+    font-size: 2rem;
+}
+
+.navbar {
+    height: 5rem;
+    background-color: white;
+}
+
+
+/* Card */
+.listing-card {
+    border: none !important;
+}
+
+#card-img {
+    width: 100%;
+    height: 18rem;
+    object-fit: cover;
+}
+
+.card-img-overlay {
+    opacity: 0;
+}
+
+.card-body {
+    padding: 0 !important;
+}
+
+.card-img-overlay:hover {
+    opacity: 0.2;
+    background-color: white;
+}
+
+.listing-link {
+    text-decoration: none;
+}
+
+
+/* Edit page */
+.btn-edit {
+    background-color: #FE5B5F !important;
+    color: white !important;
+    margin-right: 1rem;
+}
+
+
+/* Show page */
+.show-btn {
+    display: flex;
+}
+
+
+/* Footer */
+footer {
+    margin-top: 2rem;
+    background-color: #F7F7F7;
+    height: 5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+
+.footer-info a {
+    text-decoration: none;
+    color: #4F4F4F;
+}
+
+.footer-socials i {
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+    text-decoration: none;
+    color: #222222;
+}
+
+@media (max-width: 500px) {
+    .footer-socials i {
+        display: none;
+    }
+}
+
+/* home page*/
+
+.row>*{
+    margin-top:1.5rem !important;
+}
+
+
+/*Review Form*/
+
+.form-range{
+    width:40% !important;
+}
