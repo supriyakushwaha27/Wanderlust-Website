@@ -8,3 +8,9 @@ Wanderlust is a responsive travel website designed to offer a seamless user expe
 - Backend: Node.js, Express.js
 - Database: MongoDB
 
+✨ Features
+
+- 🔍 Explore Destinations: Users can browse through a wide selection of popular travel spots with visually rich cards.
+- 📝 Itinerary Details: Each destination includes a dedicated page with full travel itineraries and highlights.
+- 📱 Responsive Design:Optimized for desktops, tablets, and smartphones using Bootstrap.
+- 💾 Data Management:Efficient CRUD operations using Express.js and MongoDB.
